@@ -1,0 +1,44 @@
+:root {
+  --main-hue: #1c4587;
+  --main-hue-lightened: #cde2f5;
+  --third-hue: #4a86e8;
+  --white-writing: white;
+}
+
+header {
+  text-align: center;
+  color: var(--white-writing);
+  background-color: var(--main-hue);
+  border-color: black;
+  border: 3px solid;
+  font-size: 2.25em;
+}
+footer {
+  text-align: center;
+  color: var(--white-writing);
+  background-color: var(--main-hue);
+  border-color: black;
+  border: 3px solid;
+}
+
+.site-layout {
+  display: flex;
+}
+body {
+  font-size: 14pt;
+}
+main {
+  margin: 5em 6em 1em 12em;
+  width: 75%;
+}
+.normal-writing {
+  padding: 0 1em;
+  margin: 0;
+}
+.smaller-writing {
+  font-size: 10pt;
+}
+
+.writing-middle {
+  text-align: center;
+}
