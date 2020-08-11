@@ -1,7 +1,6 @@
 :root {
   --main-hue: #1c4587;
   --main-hue-lightened: #cde2f5;
-  --third-hue: #4a86e8;
   --white-writing: white;
 }
 
@@ -9,7 +8,7 @@ header {
   color: var(--white-writing);
   background-color: var(--main-hue);
   border-color: black;
-  border: 3px solid;
+  border: 3px solid black;
   height: 3.5em;
 }
 
@@ -20,13 +19,12 @@ h1 {
 }
 h3 {
   font-size: 1.09em;
-  margin: 1em 0 .25em 0;
+  margin: .5em 0 .1em 0;
 }
 footer {
   color: var(--white-writing);
-  background-color: var(--main-hue);
-  border-color: black;
-  border: 3px solid;
+  background-color: var(--main-hue);  
+  border: 3px solid black;
   height: 4em;
 }
 
@@ -35,9 +33,10 @@ footer {
 }
 body {
   font-size: 14pt;
+  font-family:"Balthazar", serif;
 }
 main {
-  margin: 2em 6em 0 12em;
+  margin: 2em 6em 0.5em 12em;
   width: 75%;
 }
 
@@ -52,7 +51,7 @@ aside {
   font-size: 0.85em;
 }
 
-.writing-middle {
+.text-center {
   text-align: center;
 }
 
@@ -63,7 +62,4 @@ aside {
   height: 2em;
 }
 
-.center-middle {
-  text-align: center;
-  vertical-align: middle;
-}
+
